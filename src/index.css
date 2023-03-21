@@ -193,16 +193,3 @@ CHECKED CLASSES
 .is-incorrect {
   background-color: var(--is-incorrect);
 }
-
-/*-------------------------
-MEDIA QUERIES
--------------------------*/
-
-@media (max-width: 600px) {
-  body {
-    overflow: hidden;
-  }
-  .container {
-    width: 100vw;
-  }
-}
