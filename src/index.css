@@ -200,6 +200,6 @@ MEDIA QUERIES
 
 @media (max-width: 600px) {
   .container {
-    width: 90vw;
+    width: 100vw;
   }
 }
