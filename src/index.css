@@ -200,12 +200,18 @@ MEDIA QUERIES
 
 @media (max-width: 600px) {
   .container {
-    padding-top: 2em;
     display: flex;
     width: 100vw;
     height: 100vh;
     justify-content: start;
     z-index: 99999;
+    background-color: transparent;
+    box-shadow: none;
+  }
+
+  .container::after,
+  .container::before {
+    display: none;
   }
 
   .starter--container {
@@ -220,5 +226,20 @@ MEDIA QUERIES
   .q--btn-wrapper {
     flex-direction: column;
     width: 100%;
+  }
+  .check-btn--wrapper,
+  .play-btn--container {
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    padding-top: 1.5em;
+    width: 100%;
+    background-color: var(--white-background);
+    border-top: 1px solid var(--blue-text);
+  }
+  .check-btn {
+    margin-bottom: 2em;
   }
 }

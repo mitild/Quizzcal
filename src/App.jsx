@@ -139,7 +139,9 @@ function App() {
       { 
         startGame && !check 
         ?
+        <div className="check-btn--wrapper">
         <button className="check-btn" onClick={ handleCheck }>Check answers</button>
+        </div>
         : 
         startGame && check ?
         <div className="play-btn--container">
