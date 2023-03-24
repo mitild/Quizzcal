@@ -223,6 +223,9 @@ MEDIA QUERIES
     margin: 0;
     padding: 2em;
   }
+  .q--question-wrapper:nth-last-of-type(2) {
+    margin-bottom: 4em;
+  }
   .q--btn-wrapper {
     flex-direction: column;
     width: 100%;
