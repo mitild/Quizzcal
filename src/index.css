@@ -234,12 +234,9 @@ MEDIA QUERIES
     justify-content: center;
     align-items: center;
     bottom: 0;
-    padding-top: 1.5em;
+    padding: 1.5em 2em;
     width: 100%;
     background-color: var(--white-background);
     border-top: 1px solid var(--blue-text);
-  }
-  .check-btn {
-    margin-bottom: 2em;
   }
 }
